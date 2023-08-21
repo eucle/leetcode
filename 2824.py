@@ -1,5 +1,5 @@
 def countPairs(nums: list[int], target: int) -> int:
-    return sum([(nums[i]+nums[j] < 
+    return sum([(nums[i]+nums[j] <
                  target) for i in range(len(nums)-1) for j in range(i+1, len(nums))])
 
 
