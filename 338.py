@@ -1,5 +1,5 @@
 def countBits(n: int) -> list[int]:
-    return [i.bit_count() for i in range(n + 1)]
+    return (idx.bit_count() for idx in range(n + 1))
 
 
 print(countBits(2))
