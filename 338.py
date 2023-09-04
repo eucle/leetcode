@@ -1,4 +1,7 @@
-def countBits(n: int) -> list[int]:
+from typing import Any
+
+
+def countBits(n: int) -> Any[int]:
     return (idx.bit_count() for idx in range(n + 1))
 
 
