@@ -2,4 +2,6 @@
 
 .git
 .DS_Store
-/venv/
+venv/
+__pycache__/
+.pytest_cache/
